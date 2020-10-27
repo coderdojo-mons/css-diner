@@ -50,22 +50,22 @@ var levels = [
     `
   },
   {
-    helpTitle: "Select an element inside another element",
-    selectorName: "Descendant Selector",
-    doThis: "Select the apple on the plate",
-    selector: "plate apple",
+    helpTitle: "Sélectionne un élément dans un autre élément",
+    selectorName: "Sélecteur de descendant",
+    doThis: "Sélectionne la pomme dans le plat",
+    selector: "plat pomme",
     syntax: "A&nbsp;&nbsp;B",
-    help: "Selects all <strong>B</strong> inside of <strong>A</strong>. <strong>B</strong> is called a descendant because it is inside of another element.",
+    help: "Sélectionne tout les <strong>B</strong> dans <strong>A</strong>. <strong>B</strong> est appelé un descendant car il est à l'intérieur d'un autre élément.",
     examples: [
-      '<strong>p&nbsp;&nbsp;strong</strong> selects all <tag>strong</tag> elements that are inside of any <tag>p</tag>',
-      '<strong>#fancy&nbsp;&nbsp;span</strong> selects any <tag>span</tag> elements that are inside of the element with <strong>id="fancy"</strong>',
+      '<strong>p&nbsp;&nbsp;strong</strong> sélectionne tout les éléments <tag>strong</tag> qui sont dans un <tag>p</tag>',
+      '<strong>#fancy&nbsp;&nbsp;span</strong> sélectionne les éléments <tag>span</tag> qui sont dans l\'élément avec <strong>id="fancy"</strong>',
     ],
     boardMarkup: `
     <bento/>
-    <plate>
-      <apple/>
-    </plate>
-    <apple/>
+    <plat>
+      <pomme/>
+    </plat>
+    <pomme/>
     `
   },
   {
