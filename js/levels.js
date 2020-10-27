@@ -16,19 +16,19 @@ var levels = [
     `
   },
   {
-    doThis: "Select the bento boxes",
+    doThis: "Sélectionne les boîtes bento",
     selector: "bento",
     syntax: "A",
-    helpTitle: "Select elements by their type",
-    selectorName: "Type Selector",
-    help: "Selects all elements of type <strong>A</strong>. Type refers to the type of tag, so <tag>div</tag>, <tag>p</tag> and <tag>ul</tag> are all different element types.",
+    helpTitle: "Sélectionne les éléments par leur type",
+    selectorName: "Sélecteur de type",
+    help: "Sélectionne tout les éléments de type <string>A</strong>. Le type fait référence au type de la balise, donc <tag>div</tag>, <tag>p</tag> et <tag>ul</tag> sont des éléments dont le type est différent.",
     examples: [
-      '<strong>div</strong> selects all <tag>div</tag> elements.',
-      '<strong>p</strong> selects all <tag>p</tag> elements.',
+      '<strong>div</strong> sélectionne tout les éléments <tag>div</tag>.',
+      '<strong>p</strong> sélectionne tout les éléments <tag>p</tag>.',
     ],
     boardMarkup: `
     <bento/>
-    <plate/>
+    <plat/>
     <bento/>
     `
   },
