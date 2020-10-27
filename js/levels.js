@@ -33,19 +33,19 @@ var levels = [
     `
   },
   {
-    doThis: "Select the fancy plate",
-    selector: "#fancy",
-    selectorName: "ID Selector",
-    helpTitle: "Select elements with an ID",
+    doThis: "Sélectionne le plat fantaisie",
+    selector: "#fantaisie",
+    selectorName: "Sélecteur d'identifiant",
+    helpTitle: "Sélectionne les éléments avec un ID",
     syntax: "#id",
-    help: 'Selects the element with a specific <strong>id</strong>. You can also combine the ID selector with the type selector.',
+    help: 'Sélectionne l\'élément avec un <strong>id</strong> spécifique. Tu peux aussi combiner le sélecteur d\'identifiant avec le sélecteur de type.',
     examples: [
-      '<strong>#cool</strong> selects any element with <strong>id="cool"</strong>',
-      '<strong>ul#long</strong> selects <tag>ul id="long"</tag>'
+      '<strong>#cool</strong> sélectionne les éléments avec <strong>id="cool"</strong>',
+      '<strong>ul#long</strong> sélectionne <tag>ul id="long"</tag>'
     ],
     boardMarkup: `
-    <plate id="fancy"/>
-    <plate/>
+    <plat id="fantaisie"/>
+    <plat/>
     <bento/>
     `
   },
