@@ -139,24 +139,24 @@ var levels = [
     </plat>`
   },
   {
-    doThis: "Select the small oranges in the bentos",
-    selector: "bento orange.small",
-    syntax: "Put your back into it!",
-    helpTitle: "You can do it...",
-    help: 'Combine what you learned in the last few levels to solve this one!',
+    doThis: "Sélectionne les petites oranges dans les bentos",
+    selector: "bento orange.petite",
+    syntax: "Donne toi à fond!",
+    helpTitle: "Tu peux le faire...",
+    help: 'Combine ce que tu as appris dans les niveaux précédent pour résoudre celui-ci!',
     boardMarkup: `
     <bento>
       <orange/>
     </bento>
-    <orange class="small"/>
+    <orange class="petite"/>
     <bento>
-      <orange class="small"/>
+      <orange class="petite"/>
     </bento>
     <bento>
-      <apple class="small"/>
+      <pomme class="petite"/>
     </bento>
     <bento>
-      <orange class="small"/>
+      <pomme class="petite"/>
     </bento>
     `
   },
