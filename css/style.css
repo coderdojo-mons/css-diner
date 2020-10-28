@@ -167,7 +167,7 @@ header {
   right: 20px;
 }
 
-orange, pomme, pickle, bento, plat {
+orange, pomme, cornichon, bento, plat {
   transition: transform ease-out .2s;
 }
 
@@ -385,7 +385,7 @@ orange {
   border-color: #bd6e07;
 }
 
-orange,pomme,pickle {
+orange,pomme,cornichon {
   box-shadow: 0px 5px 0px rgba(0,0,0,.2);
   display: inline-block;
   margin: 0 10px;
@@ -430,7 +430,7 @@ pomme.small {
   margin: 30px 10px;
 }
 
-pickle {
+cornichon {
   background: #179837;
   width: 25px;
   border-radius: 30px;
@@ -441,7 +441,7 @@ pickle {
   margin: 20px 10px;
 }
 
-pickle.small {
+cornichon.small {
   height: 40px;
   width: 18px;
   border-width: 1px 2px 6px 2px;
@@ -494,8 +494,8 @@ bento > .small:only-child {
   margin:0;
 }
 
-plat > pickle:only-child,
-bento > pickle:only-child {
+plat > cornichon:only-child,
+bento > cornichon:only-child {
   top: calc(50% - 40px);
   left: calc(50% - 10px);
   z-index: 99999;
@@ -503,8 +503,8 @@ bento > pickle:only-child {
   position: absolute;
 }
 
-plat > pickle.small:only-child,
-bento > pickle.small:only-child {
+plat > cornichon.small:only-child,
+bento > cornichon.small:only-child {
   top: calc(50% - 22px);
   left: calc(50% - 8px);
   z-index: 99999;

@@ -69,24 +69,24 @@ var levels = [
     `
   },
   {
-    doThis: "Select the pickle on the fancy plate",
-    selector: "#fancy pickle",
-    helpTitle: "Combine the Descendant & ID Selectors",
+    doThis: "Sélectionne le cornichon dans le plat fantaisie",
+    selector: "#fantaisie cornichon",
+    helpTitle: "Combiner les sélecteurs de descendant et d'identifiant",
     syntax: "#id&nbsp;&nbsp;A",
-    help: 'You can combine any selector with the descendent selector.',
+    help: 'Tu peux combiner n\'importe quel sélecteur avec le sélecteur de descendant.',
     examples: [
-      '<strong>#cool&nbsp;span</strong> selects all <tag>span</tag> elements that are inside of elements with <strong>id="cool"</strong>'
+      '<strong>#cool&nbsp;span</strong>sélectionne tout les élements <tag>span</tag> qui sont dans un élément avec <strong>id="cool"</strong>'
     ],
     boardMarkup: `
     <bento>
     <orange/>
     </bento>
-    <plate id="fancy">
-      <pickle/>
-    </plate>
-    <plate>
-      <pickle/>
-    </plate>
+    <plat id="fantaisie">
+      <cornichon/>
+    </plat>
+    <plat>
+      <cornichon/>
+    </plat>
     `
   },
   {
