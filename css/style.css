@@ -441,7 +441,7 @@ cornichon {
   margin: 20px 10px;
 }
 
-cornichon.small {
+cornichon.petit {
   height: 40px;
   width: 18px;
   border-width: 1px 2px 6px 2px;
@@ -480,15 +480,15 @@ bento > orange:last-child
   top: calc(50% - 35px);
 }
 
-plat .small,
-bento .small {
+plat .petit,
+bento .petit {
   left: calc(50% - 15px);
   margin-left:0;
   margin-right:0;
 }
 
-plat > .small:only-child,
-bento > .small:only-child {
+plat > .petit:only-child,
+bento > .petit:only-child {
   position: absolute;
   top: calc(50% - 15px);
   margin:0;
@@ -503,8 +503,8 @@ bento > cornichon:only-child {
   position: absolute;
 }
 
-plat > cornichon.small:only-child,
-bento > cornichon.small:only-child {
+plat > cornichon.petit:only-child,
+bento > cornichon.petit:only-child {
   top: calc(50% - 22px);
   left: calc(50% - 8px);
   z-index: 99999;

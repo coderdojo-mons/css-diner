@@ -139,6 +139,7 @@ var levels = [
     </plat>`
   },
   {
+    // #8
     doThis: "Sélectionne les petites oranges dans les bentos",
     selector: "bento orange.petite",
     syntax: "Donne toi à fond!",
@@ -161,30 +162,31 @@ var levels = [
     `
   },
   {
-    doThis: "Select all the plates and bentos",
-    selector: "plate,bento",
-    selectorName: "Comma Combinator",
-    helpTitle: "Combine, selectors, with... commas!",
+    // #9
+    doThis: "Sélectionne tout les plats et les bentos",
+    selector: "plat,bento",
+    selectorName: "Combinateur \"Virgule\"",
+    helpTitle: "Combine les sélecteurs avec... des virgules!",
     syntax: "A, B",
-    help: 'Thanks to Shatner technology, this selects all <strong>A</strong> and <strong>B</strong> elements. You can combine any selectors this way, and you can specify more than two.',
+    help: 'Ce sélecteur sélectionne les éléments <strong>A</strong> et <strong>B</strong>. Tu peux combiner plusieurs sélecteurs de cette manière.',
     examples: [
-      '<strong>p, .fun</strong> selects all <tag>p</tag> elements as well as all elements with <strong>class="fun"</strong>',
-      '<strong>a, p, div</strong> selects all <tag>a</tag>, <tag>p</tag> and <tag>div</tag> elements'
+      '<strong>p, .fun</strong> sélectionne tout les éléments <tag>p</tag> ainsi que les éléments avec <strong>class="fun"</strong>',
+      '<strong>a, p, div</strong> sélectionne tout les éléments <tag>a</tag>, <tag>p</tag> et <tag>div</tag>'
     ],
     boardMarkup: `
-    <pickle class="small"/>
-    <pickle/>
-    <plate>
-      <pickle/>
-    </plate>
+    <cornichon class="petit"/>
+    <cornichon/>
+    <plat>
+      <cornichon/>
+    </plat>
     <bento>
-      <pickle/>
+      <cornichon/>
     </bento>
-    <plate>
-      <pickle/>
-    </plate>
-    <pickle/>
-    <pickle class="small"/>
+    <plat>
+      <cornichon/>
+    </plat>
+    <cornichon/>
+    <cornichon class="petit"/>
     `
   },
   {
