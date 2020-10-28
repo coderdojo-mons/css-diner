@@ -1,5 +1,6 @@
 var levels = [
   {
+    // #1
     helpTitle: "Sélectionne les éléments par leur type",
     selectorName: "Sélecteur de type",
     doThis: "Sélectionne les plats",
@@ -16,6 +17,7 @@ var levels = [
     `
   },
   {
+    // #2
     doThis: "Sélectionne les boîtes bento",
     selector: "bento",
     syntax: "A",
@@ -33,6 +35,7 @@ var levels = [
     `
   },
   {
+    // #3
     doThis: "Sélectionne le plat fantaisie",
     selector: "#fantaisie",
     selectorName: "Sélecteur d'identifiant",
@@ -50,6 +53,7 @@ var levels = [
     `
   },
   {
+    // #4
     helpTitle: "Sélectionne un élément dans un autre élément",
     selectorName: "Sélecteur de descendant",
     doThis: "Sélectionne la pomme dans le plat",
@@ -69,6 +73,7 @@ var levels = [
     `
   },
   {
+    // #5
     doThis: "Sélectionne le cornichon dans le plat fantaisie",
     selector: "#fantaisie cornichon",
     helpTitle: "Combiner les sélecteurs de descendant et d'identifiant",
@@ -90,22 +95,23 @@ var levels = [
     `
   },
   {
-    doThis: "Select the small apples",
-    selector: ".small",
-    selectorName: "Class Selector",
-    helpTitle: "Select elements by their class",
-    syntax: ".classname",
-    help: 'The class selector selects all elements with that class attribute. Elements can only have one ID, but many classes.',
+    // #6
+    doThis: "Sélectionne les petites pommes",
+    selector: ".petite",
+    selectorName: "Sélecteur de classe",
+    helpTitle: "Sélectionne les éléments par leur classe",
+    syntax: ".nom_de_classe",
+    help: 'Le sélecteur de classe sélectionne tout les éléments par leur attribut <strong>class</strong>". Les éléments ne peuvent avoir qu\'un identifiant mais ils peuvent avoir plusieurs classes.',
     examples: [
-      '<strong>.neato</strong> selects all elements with <strong>class="neato"</strong>'
+      '<strong>.neato</strong> sélectionne tout les éléments avec <strong>class="neato"</strong>'
     ],
     boardMarkup: `
-    <apple/>
-    <apple class="small"/>
-    <plate>
-      <apple class="small"/>
-    </plate>
-    <plate/>
+    <pomme/>
+    <pomme class="petite"/>
+    <plat>
+      <pomme class="petite"/>
+    </plat>
+    <plat/>
     `
   },
   {
