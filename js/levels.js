@@ -190,25 +190,26 @@ var levels = [
     `
   },
   {
-    doThis: "Select all the things!",
+    // #10
+    doThis: "Sélectionne tout les objets!",
     selector: "*",
-    selectorName: "The Universal Selector",
-    helpTitle: "You can select everything!",
+    selectorName: "Le sélecteur universel",
+    helpTitle: "Tu peux tout sélectionner!",
     syntax: "*",
-    help: 'You can select all elements with the universal selector! ',
+    help: 'Tu peux sélectionner tout les éléments avec le sélecteur universel! ',
     examples: [
-      '<strong>p *</strong> selects any element inside all <tag>p</tag> elements.',
+      '<strong>p *</strong> sélectionne tout les éléments dans les éléments <tag>p</tag>',
     ],
     boardMarkup: `
-    <apple/>
-    <plate>
-      <orange class="small" />
-    </plate>
+    <pomme/>
+    <plat>
+      <orange class="petite" />
+    </plat>
     <bento/>
     <bento>
       <orange/>
     </bento>
-    <plate id="fancy"/>
+    <plat id="fantaisie"/>
     `
   },
   {
