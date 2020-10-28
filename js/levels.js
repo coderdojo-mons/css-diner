@@ -115,27 +115,28 @@ var levels = [
     `
   },
   {
-    doThis: "Select the small oranges",
-    selector: "orange.small",
-    helpTitle: "Combine the Class Selector",
-    syntax: "A.className",
-    help: 'You can combine the class selector with other selectors, like the type selector.',
+    // #7
+    doThis: "Sélectionne les petites oranges",
+    selector: "orange.petite",
+    helpTitle: "Combiner le sélecteur de classe",
+    syntax: "A.nom_de_classe",
+    help: 'Tu peux combiner le sélecteur de classe avec d\'autres sélecteurs, comme le sélecteur de type.',
     examples: [
-      '<strong>ul.important</strong> selects all <tag>ul</tag> elements that have <strong>class="important"</strong>',
-      '<strong>#big.wide</strong> selects all elements with <strong>id="big"</strong> that also have <strong>class="wide"</strong>'
+      '<strong>ul.important</strong> sélectionne tout les éléments <tag>ul</tag> qui ont <strong>class="important"</strong>',
+      '<strong>#big.wide</strong> sélectionne tout les éléments avec <strong>id="big"</strong> qui ont aussi <strong>class="wide"</strong>'
     ],
     boardMarkup: `
-    <apple/>
-    <apple class="small"/>
+    <pomme/>
+    <pomme class="petite"/>
     <bento>
-      <orange class="small"/>
+      <orange class="petite"/>
     </bento>
-    <plate>
+    <plat>
       <orange/>
-    </plate>
-    <plate>
-      <orange class="small"/>
-    </plate>`
+    </plat>
+    <plat>
+      <orange class="petite"/>
+    </plat>`
   },
   {
     doThis: "Select the small oranges in the bentos",
