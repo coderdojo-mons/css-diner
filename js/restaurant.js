@@ -630,7 +630,7 @@ function loadLevel(){
   loadBoard();
   resetTable();
 
-  $(".level-header .level-text").html("Level " + (currentLevel+1) + " of " + levels.length);
+  $(".level-header .level-text").html("Niveau " + (currentLevel+1) + " sur " + levels.length);
 
   updateProgressUI(currentLevel, checkCompleted(currentLevel));
 
